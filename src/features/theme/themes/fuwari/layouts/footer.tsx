@@ -18,8 +18,7 @@ export function Footer(_: FooterProps) {
           {m.footer_copyright({
             year: currentYear.toString(),
             author: siteConfig.author,
-          })}{" "}
-          </a>
+          })}
           <br />
           {m.footer_powered_by()}{" "}
           <a
