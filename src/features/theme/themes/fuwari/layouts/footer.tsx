@@ -19,25 +19,15 @@ export function Footer(_: FooterProps) {
             year: currentYear.toString(),
             author: siteConfig.author,
           })}
-          <br />
-          {m.footer_powered_by()}{" "}
-          <a
-            href=""
-            target="_blank"
-            rel="noreferrer"
-            className="fuwari-expand-animation rounded-md px-1 -m-1 font-medium hover:text-(--fuwari-primary) text-(--fuwari-primary)"
-          >
-            Tanstack Start
-          </a>{" "}
-          &{" "}
-          <a
-            href=""
-            target="_blank"
-            rel="noreferrer"
-            className="fuwari-expand-animation rounded-md px-1 -m-1 font-medium hover:text-(--fuwari-primary) text-(--fuwari-primary)"
-          >
-            Flare Stack Blog
-          </a>
+<br />
+{m.footer_powered_by()}{" "}
+<span className="fuwari-expand-animation rounded-md px-1 m-1 font-medium text-(--fuwari-primary)">
+  Tanstack Start
+</span>{" "}
+&{" "}
+<span className="fuwari-expand-animation rounded-md px-1 m-1 font-medium text-(--fuwari-primary)">
+  Flare Stack Blog
+</span>
         </div>
       </div>
     </>
