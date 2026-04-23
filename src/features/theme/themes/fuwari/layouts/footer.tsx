@@ -19,6 +19,7 @@ export function Footer(_: FooterProps) {
             year: currentYear.toString(),
             author: siteConfig.author,
           })}
+          <a href="https://icp.gov.moe/?keyword=20260599" target="_blank">萌ICP备20260599号</a>
 <br />
 {m.footer_powered_by()}{" "}
 <span className="fuwari-expand-animation rounded-md px-1 m-1 font-medium text-(--fuwari-primary)">
