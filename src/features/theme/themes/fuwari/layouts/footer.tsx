@@ -58,6 +58,16 @@ export function Footer(_: FooterProps) {
           >
             Flare Stack Blog
           </a>
+          <br />
+          {/* 萌国ICP备案，和上面样式保持一致 */}
+          <a
+            href="https://icp.gov.moe/?keyword=20260289"
+            target="_blank"
+            rel="noreferrer"
+            className="fuwari-expand-animation rounded-md px-1 -m-1 font-medium hover:text-(--fuwari-primary) text-(--fuwari-primary)"
+          >
+            萌ICP备20260289号
+          </a>
         </div>
       </div>
     </>
